@@ -1,0 +1,37 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build / dist / logs
+build/
+dist/
+*.egg-info/
+*.log
+
+# Models (not needed here, but just in case)
+models/*
+
+# Datasets cache
+data/*.zip
+data/*.tar
+data/*.tar.gz
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets
+.env
